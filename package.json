@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/finnp/flowgraph-editor#readme",
   "dependencies": {
+    "brfs": "^1.4.0",
     "delegate-dom": "0.0.1",
     "dom-array": "0.0.2",
     "dom-classlist": "^1.0.1",
@@ -29,7 +30,6 @@
     "virtual-hyperscript-svg": "^2.0.0"
   },
   "devDependencies": {
-    "brfs": "^1.4.0",
     "flowgraph": "github:finnp/flowgraph",
     "insert-css": "^0.2.0",
     "wzrd": "^1.3.1"
