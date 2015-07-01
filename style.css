@@ -1,0 +1,78 @@
+html, body, svg {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+svg .node {
+  fill: rgba(125,125,125,0.5);
+  cursor: -webkit-grab;
+}
+svg .node .body {
+  rx: 8px;
+  ry: 8px;
+  stroke: black;
+  stroke-width: 3px;
+}
+
+svg text::selection { background: none; }
+
+svg .node text {
+  fill: black;
+  font-size: 25px;
+  font-family: Helvetica;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+svg .port {
+  cursor: pointer;
+  r: 5;
+  stroke: black;
+  stroke-width: 3px;
+}
+svg .port:hover {
+  r: 7;
+}
+svg .output{
+  fill: #FF5E56;
+}
+svg .input {
+  fill: #48D559;
+}
+svg .connector, svg .edge {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 3px;
+  transition: stroke-width 0.3s;
+}
+
+svg .edge:hover {
+  stroke: red;
+  stroke-width: 5px;
+  cursor: not-allowed;
+}
+
+svg .edgeactive {
+  stroke-width: 7px;
+}
+
+svg .node .close {
+  fill:  #FF5E56;
+  x: 5;
+  y: 5;
+  width: 10px;
+  height: 10px;
+  rx: 2;
+  cursor: not-allowed;
+  transition: height 0.2s, width 0.2s, x 0.2s, y 0.2s;
+}
+
+svg .node .close:hover {
+  x: 0;
+  y: 0;
+  width: 100px;
+  height: 100px;
+  rx: 8;
+  stroke-width: 3px;
+  stroke: #7B1611;
+}
