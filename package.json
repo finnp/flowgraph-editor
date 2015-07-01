@@ -1,0 +1,23 @@
+{
+  "name": "flowgraph-editor",
+  "version": "1.0.0",
+  "description": "View for the flowgraph module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finnp/flowgraph-editor.git"
+  },
+  "keywords": [
+    "flowgraph",
+    "ports"
+  ],
+  "author": "Finn Pauls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finnp/flowgraph-editor/issues"
+  },
+  "homepage": "https://github.com/finnp/flowgraph-editor#readme"
+}
