@@ -9,8 +9,6 @@ svg .node {
   cursor: -webkit-grab;
 }
 svg .node .body {
-  rx: 8px;
-  ry: 8px;
   stroke: black;
   stroke-width: 3px;
 }
@@ -26,7 +24,6 @@ svg .node text {
 }
 svg .port {
   cursor: pointer;
-  r: 5;
   stroke: black;
   stroke-width: 3px;
 }
@@ -58,11 +55,6 @@ svg .edgeactive {
 
 svg .node .close {
   fill:  #FF5E56;
-  x: 5;
-  y: 5;
-  width: 10px;
-  height: 10px;
-  rx: 2;
   cursor: not-allowed;
   transition: height 0.2s, width 0.2s, x 0.2s, y 0.2s;
 }
